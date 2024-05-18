@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT-EDITOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+    <div class="container ">
+        <h2>Text_Editor</h2>
+        <div class="child_1">
+            <div class="dropdown">
+                <button class="dropbtn">Normal</button>
+                <div class="dropdown-content">
+                    <a href="#">Heading 1</a>
+                    <a href="#">Heading 2</a>
+                    <a href="#">Heading 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Font_Family</button>
+                <div class="dropdown-content">
+                    <a onclick="sans()"   href="#">sans-serif</a>
+                    <a onclick="serif()" id="serif" href="#">serif</a>
+                    <a onclick="georgia()" id="georgia" href="#">Georgia</a>
+                </div>
+            </div>
+            <span><i onclick="bold()" class="fa-solid fa-bold"></i></span>
+            <span><i onclick="italic()" class="fa-solid fa-italic"></i></span>
+            <span><i onclick="underline()" class="fa-solid fa-underline"></i></span>
+            <span><i onclick="left()" class="fa-solid fa-align-left"></i></span>
+            <span> <i onclick="center()" class="fa-solid fa-align-center"></i></span>
+            <span> <i onclick="right()" class="fa-solid fa-align-right"></i></span>
+        </div>
+        <div class="child_2">
+            <!-- <textarea class="area" name="" > </textarea> -->
+            <p id="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quibusdam at dolore quae reiciendis iusto officiis ut. Quod explicabo sapiente quidem, nam maiores quis officiis numquam nesciunt, dignissimos cum consectetur.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates suscipit sapiente tempora eveniet cum unde dolor. Dicta vel optio similique, sed, quidem voluptas aut modi molestias aperiam deserunt vero nam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, esse! Recusandae mollitia tenetur at necessitatibus hic eligendi dolorum, cupiditate, ut, saepe deleniti amet placeat impedit fugiat sint optio possimus magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit non voluptas blanditiis facere praesentium ab porro nobis veritatis impedit reprehenderit, pariatur sit unde dolorum! Facilis dolor numquam porro culpa architecto! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis omnis tenetur nemo, dicta similique id ad maiores illo praesentium impedit, earum a veniam fugit vel, autem eaque unde. Amet, exercitationem!</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
